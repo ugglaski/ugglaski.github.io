@@ -41,6 +41,7 @@ comments:
   provider: disqus
   disqus:
     shortname: datawizone
+  
   defaults:
   -
     scope:
