@@ -37,7 +37,8 @@ plugins:
 paginate: 5
 paginate_path: "/blog/page:num/"
 
-shortname: datawizone
+disqus:
+  shortname: datawizone
   
   defaults:
   -
