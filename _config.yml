@@ -13,15 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+name: DATAWIZ.ONE
 title: DATAWIZ.ONE
+<<<<<<< HEAD
 avatar: "/assets/img/logosquare.png"
+=======
+image: /assets/img/Capture.svg
+>>>>>>> 2d8875edf914de78d8f98e75ee0cda7fe7953ea4
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g.https://ugglaski.github.io http://example.com
+url: "http://www.datawiz.one" # the base hostname & protocol for your site, e.g.https://ugglaski.github.io http://example.com
+
 twitter_username: jekyllrb
 github_username:  jekyll
 facebook_username: xxx
@@ -50,8 +56,12 @@ defaults:
       type: "posts"
     values:
       comments: true
+<<<<<<< HEAD
       share: true
       
+=======
+      read_time: true
+>>>>>>> 2d8875edf914de78d8f98e75ee0cda7fe7953ea4
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
