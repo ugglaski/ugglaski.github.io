@@ -27,9 +27,6 @@ github_username:  jekyll
 facebook_username: xxx
 linkedin_username: maciej.sowa
 
-facebook:
-    username: maciej.sowa
-
 # Build settings
 markdown: kramdown
 theme: minima
