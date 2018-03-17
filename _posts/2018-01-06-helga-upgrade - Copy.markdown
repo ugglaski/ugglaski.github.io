@@ -5,7 +5,7 @@ date:   2018-01-10 22:18:20 +0100
 categories: jekyll update
 ---
 1.	Obciążenie wolumenów logicznych – zalecane przez MS minimum 10% wolnego
- ![alt text](/assests/img/obciazenie.png)
+ 
 
 2.	Brak ustawień pliku pamięci wirtualnej, zdaje sobie sprawę z ilości RAM, oraz z praktyki którą omawialiśmy już wcześniej w Pepco, ale MS zaleca aby plik był więc o nim piszę. Dodałbym go i przeprowadził testy obciążenia.
 
