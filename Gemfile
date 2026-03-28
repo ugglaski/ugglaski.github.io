@@ -1,17 +1,13 @@
 source "https://rubygems.org"
-# Use GitHub Pages version of Jekyll for compatibility with GitHub Pages.
-# This pins a tested set of plugins and a safe Jekyll version.
-gem "github-pages", group: :jekyll_plugins
-# If you need extra plugins not included in github-pages, add them under group :jekyll_plugins.
-# If you prefer standalone Jekyll versions, keep explicit gems instead.
-#
-# Example standalone configuration (not needed for GitHub Pages):
-# gem "jekyll", "~> 4.1.0"
-# gem "minima", "~> 2.5"
+# Use explicit Jekyll versions for local consistency.
+# GitHub Pages supports Jekyll 4.x in the pages build environment.
+gem "jekyll", "~> 4.1.0"
+# This is the default theme for new Jekyll sites.
+gem "minima", "~> 2.5"
 
-# Plugin list for GitHub Pages and local build
+# Plugin list for local build
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.13"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
