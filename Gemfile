@@ -12,8 +12,7 @@ gem "github-pages", group: :jekyll_plugins
 
 # Plugin list for GitHub Pages and local build
 group :jekyll_plugins do
-  # GitHub Pages includes jekyll-feed; no explicit version needed.
-  gem "jekyll-feed"
+  # GitHub Pages includes jekyll-feed; remove explicit gem to avoid conflicts.
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
