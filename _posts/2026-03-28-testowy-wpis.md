@@ -6,3 +6,10 @@ categories: [blog]
 tags: [test, jekyll]
 ---
 
+To jest testowy wpis na stronie datawiz.one.
+
+Sprawdzamy, czy publikacja działa poprawnie.
+
+Jeśli widzisz ten tekst, wszystko jest OK!
+
+
