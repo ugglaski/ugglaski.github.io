@@ -23,3 +23,8 @@ flowchart TD
 
 Aby diagram był widoczny, strona musi mieć włączone Mermaid.js. Można dodać script do layoutu lub użyć pluginu Jekyll.
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
