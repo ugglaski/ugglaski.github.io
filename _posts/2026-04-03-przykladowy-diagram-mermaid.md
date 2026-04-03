@@ -23,6 +23,15 @@ flowchart TD
 
 Aby diagram był widoczny, strona musi mieć włączone Mermaid.js. Można dodać script do layoutu lub użyć pluginu Jekyll.
 
+## Krótki opis
+W tym poście pokazano, jak przejść od pomysłu do publikacji:
+- utwórz plik w `_posts`
+- wypełnij treść i front matter
+- wykonaj `git add/commit/push`
+- poczekaj na deploy GitHub Pages
+
+Dzięki temu diagramowi widać, jak proste jest wdrożenie.
+
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
